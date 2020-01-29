@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="Web.paginas._mestra.Base" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title></title>
+
+    <link type="text/css" href="/biblioteca/bootstrap/4-4-1/css/bootstrap.min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="ConteudoCabecalho" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ConteudoPrincipal" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="/biblioteca/jquery/3-4-1/jquery.min.js"></script>
+    <script src="/biblioteca/popper/1-16-0/popper.min.js"></script>
+    <script src="/biblioteca/bootstrap/4-4-1/js/bootstrap.min.js"></script>
+</body>
+</html>
